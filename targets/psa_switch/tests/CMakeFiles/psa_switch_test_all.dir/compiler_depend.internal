@@ -685,13 +685,13 @@ targets/psa_switch/tests/CMakeFiles/psa_switch_test_all.dir/__/thrift/src/PsaSwi
  /home/p4/src/behavioral-model/include/bm/bm_sim/transport.h
  /home/p4/src/behavioral-model/include/bm/config.h
  /home/p4/src/behavioral-model/include/bm/thrift/stdcxx.h
- /home/p4/src/behavioral-model/targets/psa_switch/gen-cpp/bm/PsaSwitch.h
- /home/p4/src/behavioral-model/targets/psa_switch/gen-cpp/bm/psa_switch_types.h
  /home/p4/src/behavioral-model/targets/psa_switch/externs/psa_counter.h
  /home/p4/src/behavioral-model/targets/psa_switch/externs/psa_hash.h
  /home/p4/src/behavioral-model/targets/psa_switch/externs/psa_internet_checksum.h
  /home/p4/src/behavioral-model/targets/psa_switch/externs/psa_meter.h
  /home/p4/src/behavioral-model/targets/psa_switch/externs/psa_random.h
+ /home/p4/src/behavioral-model/targets/psa_switch/gen-cpp/bm/PsaSwitch.h
+ /home/p4/src/behavioral-model/targets/psa_switch/gen-cpp/bm/psa_switch_types.h
  /home/p4/src/behavioral-model/targets/psa_switch/psa_switch.h
  /home/p4/src/behavioral-model/third_party/spdlog/bm/spdlog/details/format.h
  /home/p4/src/behavioral-model/third_party/spdlog/bm/spdlog/details/mpmc_bounded_q.h

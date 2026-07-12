@@ -73,7 +73,7 @@ src/BMI/CMakeFiles/bmi.dir/bmi_interface.c.o: src/BMI/CMakeFiles/bmi.dir/flags.m
 src/BMI/CMakeFiles/bmi.dir/bmi_interface.c.o: src/BMI/bmi_interface.c
 src/BMI/CMakeFiles/bmi.dir/bmi_interface.c.o: src/BMI/CMakeFiles/bmi.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/BMI/CMakeFiles/bmi.dir/bmi_interface.c.o"
-	cd /home/p4/src/behavioral-model/src/BMI && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/BMI/CMakeFiles/bmi.dir/bmi_interface.c.o -MF CMakeFiles/bmi.dir/bmi_interface.c.o.d -o CMakeFiles/bmi.dir/bmi_interface.c.o -c /home/p4/src/behavioral-model/src/BMI/bmi_interface.c
+	cd /home/p4/src/behavioral-model/src/BMI && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/BMI/CMakeFiles/bmi.dir/bmi_interface.c.o -MF CMakeFiles/bmi.dir/bmi_interface.c.o.d -o CMakeFiles/bmi.dir/bmi_interface.c.o -c /home/p4/src/behavioral-model/src/BMI/bmi_interface.c
 
 src/BMI/CMakeFiles/bmi.dir/bmi_interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bmi.dir/bmi_interface.c.i"
@@ -87,7 +87,7 @@ src/BMI/CMakeFiles/bmi.dir/bmi_port.c.o: src/BMI/CMakeFiles/bmi.dir/flags.make
 src/BMI/CMakeFiles/bmi.dir/bmi_port.c.o: src/BMI/bmi_port.c
 src/BMI/CMakeFiles/bmi.dir/bmi_port.c.o: src/BMI/CMakeFiles/bmi.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/BMI/CMakeFiles/bmi.dir/bmi_port.c.o"
-	cd /home/p4/src/behavioral-model/src/BMI && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/BMI/CMakeFiles/bmi.dir/bmi_port.c.o -MF CMakeFiles/bmi.dir/bmi_port.c.o.d -o CMakeFiles/bmi.dir/bmi_port.c.o -c /home/p4/src/behavioral-model/src/BMI/bmi_port.c
+	cd /home/p4/src/behavioral-model/src/BMI && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/BMI/CMakeFiles/bmi.dir/bmi_port.c.o -MF CMakeFiles/bmi.dir/bmi_port.c.o.d -o CMakeFiles/bmi.dir/bmi_port.c.o -c /home/p4/src/behavioral-model/src/BMI/bmi_port.c
 
 src/BMI/CMakeFiles/bmi.dir/bmi_port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bmi.dir/bmi_port.c.i"

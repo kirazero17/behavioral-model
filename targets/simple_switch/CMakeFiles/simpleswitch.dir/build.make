@@ -73,7 +73,7 @@ targets/simple_switch/CMakeFiles/simpleswitch.dir/simple_switch.cpp.o: targets/s
 targets/simple_switch/CMakeFiles/simpleswitch.dir/simple_switch.cpp.o: targets/simple_switch/simple_switch.cpp
 targets/simple_switch/CMakeFiles/simpleswitch.dir/simple_switch.cpp.o: targets/simple_switch/CMakeFiles/simpleswitch.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object targets/simple_switch/CMakeFiles/simpleswitch.dir/simple_switch.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/simple_switch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch/CMakeFiles/simpleswitch.dir/simple_switch.cpp.o -MF CMakeFiles/simpleswitch.dir/simple_switch.cpp.o.d -o CMakeFiles/simpleswitch.dir/simple_switch.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch/simple_switch.cpp
+	cd /home/p4/src/behavioral-model/targets/simple_switch && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch/CMakeFiles/simpleswitch.dir/simple_switch.cpp.o -MF CMakeFiles/simpleswitch.dir/simple_switch.cpp.o.d -o CMakeFiles/simpleswitch.dir/simple_switch.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch/simple_switch.cpp
 
 targets/simple_switch/CMakeFiles/simpleswitch.dir/simple_switch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simpleswitch.dir/simple_switch.cpp.i"
@@ -87,7 +87,7 @@ targets/simple_switch/CMakeFiles/simpleswitch.dir/primitives.cpp.o: targets/simp
 targets/simple_switch/CMakeFiles/simpleswitch.dir/primitives.cpp.o: targets/simple_switch/primitives.cpp
 targets/simple_switch/CMakeFiles/simpleswitch.dir/primitives.cpp.o: targets/simple_switch/CMakeFiles/simpleswitch.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object targets/simple_switch/CMakeFiles/simpleswitch.dir/primitives.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/simple_switch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch/CMakeFiles/simpleswitch.dir/primitives.cpp.o -MF CMakeFiles/simpleswitch.dir/primitives.cpp.o.d -o CMakeFiles/simpleswitch.dir/primitives.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch/primitives.cpp
+	cd /home/p4/src/behavioral-model/targets/simple_switch && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch/CMakeFiles/simpleswitch.dir/primitives.cpp.o -MF CMakeFiles/simpleswitch.dir/primitives.cpp.o.d -o CMakeFiles/simpleswitch.dir/primitives.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch/primitives.cpp
 
 targets/simple_switch/CMakeFiles/simpleswitch.dir/primitives.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simpleswitch.dir/primitives.cpp.i"
@@ -101,7 +101,7 @@ targets/simple_switch/CMakeFiles/simpleswitch.dir/thrift/src/SimpleSwitch_server
 targets/simple_switch/CMakeFiles/simpleswitch.dir/thrift/src/SimpleSwitch_server.cpp.o: targets/simple_switch/thrift/src/SimpleSwitch_server.cpp
 targets/simple_switch/CMakeFiles/simpleswitch.dir/thrift/src/SimpleSwitch_server.cpp.o: targets/simple_switch/CMakeFiles/simpleswitch.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object targets/simple_switch/CMakeFiles/simpleswitch.dir/thrift/src/SimpleSwitch_server.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/simple_switch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch/CMakeFiles/simpleswitch.dir/thrift/src/SimpleSwitch_server.cpp.o -MF CMakeFiles/simpleswitch.dir/thrift/src/SimpleSwitch_server.cpp.o.d -o CMakeFiles/simpleswitch.dir/thrift/src/SimpleSwitch_server.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch/thrift/src/SimpleSwitch_server.cpp
+	cd /home/p4/src/behavioral-model/targets/simple_switch && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch/CMakeFiles/simpleswitch.dir/thrift/src/SimpleSwitch_server.cpp.o -MF CMakeFiles/simpleswitch.dir/thrift/src/SimpleSwitch_server.cpp.o.d -o CMakeFiles/simpleswitch.dir/thrift/src/SimpleSwitch_server.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch/thrift/src/SimpleSwitch_server.cpp
 
 targets/simple_switch/CMakeFiles/simpleswitch.dir/thrift/src/SimpleSwitch_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simpleswitch.dir/thrift/src/SimpleSwitch_server.cpp.i"

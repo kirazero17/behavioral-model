@@ -73,7 +73,7 @@ targets/test_utils/CMakeFiles/test_utils.dir/utils.cpp.o: targets/test_utils/CMa
 targets/test_utils/CMakeFiles/test_utils.dir/utils.cpp.o: targets/test_utils/utils.cpp
 targets/test_utils/CMakeFiles/test_utils.dir/utils.cpp.o: targets/test_utils/CMakeFiles/test_utils.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object targets/test_utils/CMakeFiles/test_utils.dir/utils.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/test_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/test_utils/CMakeFiles/test_utils.dir/utils.cpp.o -MF CMakeFiles/test_utils.dir/utils.cpp.o.d -o CMakeFiles/test_utils.dir/utils.cpp.o -c /home/p4/src/behavioral-model/targets/test_utils/utils.cpp
+	cd /home/p4/src/behavioral-model/targets/test_utils && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/test_utils/CMakeFiles/test_utils.dir/utils.cpp.o -MF CMakeFiles/test_utils.dir/utils.cpp.o.d -o CMakeFiles/test_utils.dir/utils.cpp.o -c /home/p4/src/behavioral-model/targets/test_utils/utils.cpp
 
 targets/test_utils/CMakeFiles/test_utils.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_utils.dir/utils.cpp.i"

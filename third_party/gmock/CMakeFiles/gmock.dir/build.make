@@ -73,7 +73,7 @@ third_party/gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: third_party/gmock/CMa
 third_party/gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: third_party/gmock/src/gmock-all.cc
 third_party/gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: third_party/gmock/CMakeFiles/gmock.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third_party/gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-	cd /home/p4/src/behavioral-model/third_party/gmock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT third_party/gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -MF CMakeFiles/gmock.dir/src/gmock-all.cc.o.d -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/p4/src/behavioral-model/third_party/gmock/src/gmock-all.cc
+	cd /home/p4/src/behavioral-model/third_party/gmock && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT third_party/gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -MF CMakeFiles/gmock.dir/src/gmock-all.cc.o.d -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/p4/src/behavioral-model/third_party/gmock/src/gmock-all.cc
 
 third_party/gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"

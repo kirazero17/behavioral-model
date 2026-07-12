@@ -94,7 +94,7 @@ targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_constan
 targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_constants.cpp.o: targets/psa_switch/gen-cpp/bm/psa_switch_constants.cpp
 targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_constants.cpp.o: targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_constants.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/psa_switch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_constants.cpp.o -MF CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_constants.cpp.o.d -o CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_constants.cpp.o -c /home/p4/src/behavioral-model/targets/psa_switch/gen-cpp/bm/psa_switch_constants.cpp
+	cd /home/p4/src/behavioral-model/targets/psa_switch && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_constants.cpp.o -MF CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_constants.cpp.o.d -o CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_constants.cpp.o -c /home/p4/src/behavioral-model/targets/psa_switch/gen-cpp/bm/psa_switch_constants.cpp
 
 targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_constants.cpp.i"
@@ -108,7 +108,7 @@ targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_types.c
 targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_types.cpp.o: targets/psa_switch/gen-cpp/bm/psa_switch_types.cpp
 targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_types.cpp.o: targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_types.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/psa_switch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_types.cpp.o -MF CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_types.cpp.o.d -o CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_types.cpp.o -c /home/p4/src/behavioral-model/targets/psa_switch/gen-cpp/bm/psa_switch_types.cpp
+	cd /home/p4/src/behavioral-model/targets/psa_switch && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_types.cpp.o -MF CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_types.cpp.o.d -o CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_types.cpp.o -c /home/p4/src/behavioral-model/targets/psa_switch/gen-cpp/bm/psa_switch_types.cpp
 
 targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/psa_switch_types.cpp.i"
@@ -122,7 +122,7 @@ targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/PsaSwitch.cpp.o: t
 targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/PsaSwitch.cpp.o: targets/psa_switch/gen-cpp/bm/PsaSwitch.cpp
 targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/PsaSwitch.cpp.o: targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/PsaSwitch.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/psa_switch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/PsaSwitch.cpp.o -MF CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/PsaSwitch.cpp.o.d -o CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/PsaSwitch.cpp.o -c /home/p4/src/behavioral-model/targets/psa_switch/gen-cpp/bm/PsaSwitch.cpp
+	cd /home/p4/src/behavioral-model/targets/psa_switch && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/PsaSwitch.cpp.o -MF CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/PsaSwitch.cpp.o.d -o CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/PsaSwitch.cpp.o -c /home/p4/src/behavioral-model/targets/psa_switch/gen-cpp/bm/PsaSwitch.cpp
 
 targets/psa_switch/CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/PsaSwitch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/psaswitch_thrift.dir/gen-cpp/bm/PsaSwitch.cpp.i"

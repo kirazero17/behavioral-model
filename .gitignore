@@ -36,6 +36,9 @@
 
 build/
 lib*
+# target/**/tests/CMakeFiles/**/*.o.d
+# target/**/tests/CMakeFiles/**/*.make
+# target/**/tests/CMakeFiles/**/*.internal
 
 # Vim
 *.swp

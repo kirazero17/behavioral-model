@@ -73,7 +73,7 @@ targets/simple_switch_grpc/tests/CMakeFiles/example.dir/example.cpp.o: targets/s
 targets/simple_switch_grpc/tests/CMakeFiles/example.dir/example.cpp.o: targets/simple_switch_grpc/tests/example.cpp
 targets/simple_switch_grpc/tests/CMakeFiles/example.dir/example.cpp.o: targets/simple_switch_grpc/tests/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object targets/simple_switch_grpc/tests/CMakeFiles/example.dir/example.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch_grpc/tests/CMakeFiles/example.dir/example.cpp.o -MF CMakeFiles/example.dir/example.cpp.o.d -o CMakeFiles/example.dir/example.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests/example.cpp
+	cd /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch_grpc/tests/CMakeFiles/example.dir/example.cpp.o -MF CMakeFiles/example.dir/example.cpp.o.d -o CMakeFiles/example.dir/example.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests/example.cpp
 
 targets/simple_switch_grpc/tests/CMakeFiles/example.dir/example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example.dir/example.cpp.i"
@@ -87,7 +87,7 @@ targets/simple_switch_grpc/tests/CMakeFiles/example.dir/utils.cpp.o: targets/sim
 targets/simple_switch_grpc/tests/CMakeFiles/example.dir/utils.cpp.o: targets/simple_switch_grpc/tests/utils.cpp
 targets/simple_switch_grpc/tests/CMakeFiles/example.dir/utils.cpp.o: targets/simple_switch_grpc/tests/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object targets/simple_switch_grpc/tests/CMakeFiles/example.dir/utils.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch_grpc/tests/CMakeFiles/example.dir/utils.cpp.o -MF CMakeFiles/example.dir/utils.cpp.o.d -o CMakeFiles/example.dir/utils.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests/utils.cpp
+	cd /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch_grpc/tests/CMakeFiles/example.dir/utils.cpp.o -MF CMakeFiles/example.dir/utils.cpp.o.d -o CMakeFiles/example.dir/utils.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests/utils.cpp
 
 targets/simple_switch_grpc/tests/CMakeFiles/example.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example.dir/utils.cpp.i"

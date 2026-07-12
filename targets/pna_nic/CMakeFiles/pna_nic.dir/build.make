@@ -73,7 +73,7 @@ targets/pna_nic/CMakeFiles/pna_nic.dir/main.cpp.o: targets/pna_nic/CMakeFiles/pn
 targets/pna_nic/CMakeFiles/pna_nic.dir/main.cpp.o: targets/pna_nic/main.cpp
 targets/pna_nic/CMakeFiles/pna_nic.dir/main.cpp.o: targets/pna_nic/CMakeFiles/pna_nic.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object targets/pna_nic/CMakeFiles/pna_nic.dir/main.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/pna_nic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/pna_nic/CMakeFiles/pna_nic.dir/main.cpp.o -MF CMakeFiles/pna_nic.dir/main.cpp.o.d -o CMakeFiles/pna_nic.dir/main.cpp.o -c /home/p4/src/behavioral-model/targets/pna_nic/main.cpp
+	cd /home/p4/src/behavioral-model/targets/pna_nic && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/pna_nic/CMakeFiles/pna_nic.dir/main.cpp.o -MF CMakeFiles/pna_nic.dir/main.cpp.o.d -o CMakeFiles/pna_nic.dir/main.cpp.o -c /home/p4/src/behavioral-model/targets/pna_nic/main.cpp
 
 targets/pna_nic/CMakeFiles/pna_nic.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pna_nic.dir/main.cpp.i"
@@ -87,7 +87,7 @@ targets/pna_nic/CMakeFiles/pna_nic.dir/thrift/src/PnaNic_server.cpp.o: targets/p
 targets/pna_nic/CMakeFiles/pna_nic.dir/thrift/src/PnaNic_server.cpp.o: targets/pna_nic/thrift/src/PnaNic_server.cpp
 targets/pna_nic/CMakeFiles/pna_nic.dir/thrift/src/PnaNic_server.cpp.o: targets/pna_nic/CMakeFiles/pna_nic.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object targets/pna_nic/CMakeFiles/pna_nic.dir/thrift/src/PnaNic_server.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/pna_nic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/pna_nic/CMakeFiles/pna_nic.dir/thrift/src/PnaNic_server.cpp.o -MF CMakeFiles/pna_nic.dir/thrift/src/PnaNic_server.cpp.o.d -o CMakeFiles/pna_nic.dir/thrift/src/PnaNic_server.cpp.o -c /home/p4/src/behavioral-model/targets/pna_nic/thrift/src/PnaNic_server.cpp
+	cd /home/p4/src/behavioral-model/targets/pna_nic && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/pna_nic/CMakeFiles/pna_nic.dir/thrift/src/PnaNic_server.cpp.o -MF CMakeFiles/pna_nic.dir/thrift/src/PnaNic_server.cpp.o.d -o CMakeFiles/pna_nic.dir/thrift/src/PnaNic_server.cpp.o -c /home/p4/src/behavioral-model/targets/pna_nic/thrift/src/PnaNic_server.cpp
 
 targets/pna_nic/CMakeFiles/pna_nic.dir/thrift/src/PnaNic_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pna_nic.dir/thrift/src/PnaNic_server.cpp.i"

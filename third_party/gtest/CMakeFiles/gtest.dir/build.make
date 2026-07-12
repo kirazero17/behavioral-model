@@ -73,7 +73,7 @@ third_party/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: third_party/gtest/CMa
 third_party/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: third_party/gtest/src/gtest-all.cc
 third_party/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: third_party/gtest/CMakeFiles/gtest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third_party/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd /home/p4/src/behavioral-model/third_party/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT third_party/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -MF CMakeFiles/gtest.dir/src/gtest-all.cc.o.d -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/p4/src/behavioral-model/third_party/gtest/src/gtest-all.cc
+	cd /home/p4/src/behavioral-model/third_party/gtest && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT third_party/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -MF CMakeFiles/gtest.dir/src/gtest-all.cc.o.d -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/p4/src/behavioral-model/third_party/gtest/src/gtest-all.cc
 
 third_party/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"

@@ -73,7 +73,7 @@ targets/simple_router/CMakeFiles/simple_router.dir/primitives.cpp.o: targets/sim
 targets/simple_router/CMakeFiles/simple_router.dir/primitives.cpp.o: targets/simple_router/primitives.cpp
 targets/simple_router/CMakeFiles/simple_router.dir/primitives.cpp.o: targets/simple_router/CMakeFiles/simple_router.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object targets/simple_router/CMakeFiles/simple_router.dir/primitives.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/simple_router && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_router/CMakeFiles/simple_router.dir/primitives.cpp.o -MF CMakeFiles/simple_router.dir/primitives.cpp.o.d -o CMakeFiles/simple_router.dir/primitives.cpp.o -c /home/p4/src/behavioral-model/targets/simple_router/primitives.cpp
+	cd /home/p4/src/behavioral-model/targets/simple_router && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_router/CMakeFiles/simple_router.dir/primitives.cpp.o -MF CMakeFiles/simple_router.dir/primitives.cpp.o.d -o CMakeFiles/simple_router.dir/primitives.cpp.o -c /home/p4/src/behavioral-model/targets/simple_router/primitives.cpp
 
 targets/simple_router/CMakeFiles/simple_router.dir/primitives.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simple_router.dir/primitives.cpp.i"
@@ -87,7 +87,7 @@ targets/simple_router/CMakeFiles/simple_router.dir/simple_router.cpp.o: targets/
 targets/simple_router/CMakeFiles/simple_router.dir/simple_router.cpp.o: targets/simple_router/simple_router.cpp
 targets/simple_router/CMakeFiles/simple_router.dir/simple_router.cpp.o: targets/simple_router/CMakeFiles/simple_router.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object targets/simple_router/CMakeFiles/simple_router.dir/simple_router.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/simple_router && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_router/CMakeFiles/simple_router.dir/simple_router.cpp.o -MF CMakeFiles/simple_router.dir/simple_router.cpp.o.d -o CMakeFiles/simple_router.dir/simple_router.cpp.o -c /home/p4/src/behavioral-model/targets/simple_router/simple_router.cpp
+	cd /home/p4/src/behavioral-model/targets/simple_router && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_router/CMakeFiles/simple_router.dir/simple_router.cpp.o -MF CMakeFiles/simple_router.dir/simple_router.cpp.o.d -o CMakeFiles/simple_router.dir/simple_router.cpp.o -c /home/p4/src/behavioral-model/targets/simple_router/simple_router.cpp
 
 targets/simple_router/CMakeFiles/simple_router.dir/simple_router.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simple_router.dir/simple_router.cpp.i"

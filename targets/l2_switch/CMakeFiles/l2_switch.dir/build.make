@@ -73,7 +73,7 @@ targets/l2_switch/CMakeFiles/l2_switch.dir/l2_switch.cpp.o: targets/l2_switch/CM
 targets/l2_switch/CMakeFiles/l2_switch.dir/l2_switch.cpp.o: targets/l2_switch/l2_switch.cpp
 targets/l2_switch/CMakeFiles/l2_switch.dir/l2_switch.cpp.o: targets/l2_switch/CMakeFiles/l2_switch.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object targets/l2_switch/CMakeFiles/l2_switch.dir/l2_switch.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/l2_switch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/l2_switch/CMakeFiles/l2_switch.dir/l2_switch.cpp.o -MF CMakeFiles/l2_switch.dir/l2_switch.cpp.o.d -o CMakeFiles/l2_switch.dir/l2_switch.cpp.o -c /home/p4/src/behavioral-model/targets/l2_switch/l2_switch.cpp
+	cd /home/p4/src/behavioral-model/targets/l2_switch && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/l2_switch/CMakeFiles/l2_switch.dir/l2_switch.cpp.o -MF CMakeFiles/l2_switch.dir/l2_switch.cpp.o.d -o CMakeFiles/l2_switch.dir/l2_switch.cpp.o -c /home/p4/src/behavioral-model/targets/l2_switch/l2_switch.cpp
 
 targets/l2_switch/CMakeFiles/l2_switch.dir/l2_switch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/l2_switch.dir/l2_switch.cpp.i"
@@ -87,7 +87,7 @@ targets/l2_switch/CMakeFiles/l2_switch.dir/primitives.cpp.o: targets/l2_switch/C
 targets/l2_switch/CMakeFiles/l2_switch.dir/primitives.cpp.o: targets/l2_switch/primitives.cpp
 targets/l2_switch/CMakeFiles/l2_switch.dir/primitives.cpp.o: targets/l2_switch/CMakeFiles/l2_switch.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object targets/l2_switch/CMakeFiles/l2_switch.dir/primitives.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/l2_switch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/l2_switch/CMakeFiles/l2_switch.dir/primitives.cpp.o -MF CMakeFiles/l2_switch.dir/primitives.cpp.o.d -o CMakeFiles/l2_switch.dir/primitives.cpp.o -c /home/p4/src/behavioral-model/targets/l2_switch/primitives.cpp
+	cd /home/p4/src/behavioral-model/targets/l2_switch && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/l2_switch/CMakeFiles/l2_switch.dir/primitives.cpp.o -MF CMakeFiles/l2_switch.dir/primitives.cpp.o.d -o CMakeFiles/l2_switch.dir/primitives.cpp.o -c /home/p4/src/behavioral-model/targets/l2_switch/primitives.cpp
 
 targets/l2_switch/CMakeFiles/l2_switch.dir/primitives.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/l2_switch.dir/primitives.cpp.i"

@@ -73,7 +73,7 @@ targets/simple_switch/CMakeFiles/simpleswitch_runner.dir/runner.cpp.o: targets/s
 targets/simple_switch/CMakeFiles/simpleswitch_runner.dir/runner.cpp.o: targets/simple_switch/runner.cpp
 targets/simple_switch/CMakeFiles/simpleswitch_runner.dir/runner.cpp.o: targets/simple_switch/CMakeFiles/simpleswitch_runner.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object targets/simple_switch/CMakeFiles/simpleswitch_runner.dir/runner.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/simple_switch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch/CMakeFiles/simpleswitch_runner.dir/runner.cpp.o -MF CMakeFiles/simpleswitch_runner.dir/runner.cpp.o.d -o CMakeFiles/simpleswitch_runner.dir/runner.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch/runner.cpp
+	cd /home/p4/src/behavioral-model/targets/simple_switch && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch/CMakeFiles/simpleswitch_runner.dir/runner.cpp.o -MF CMakeFiles/simpleswitch_runner.dir/runner.cpp.o.d -o CMakeFiles/simpleswitch_runner.dir/runner.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch/runner.cpp
 
 targets/simple_switch/CMakeFiles/simpleswitch_runner.dir/runner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simpleswitch_runner.dir/runner.cpp.i"

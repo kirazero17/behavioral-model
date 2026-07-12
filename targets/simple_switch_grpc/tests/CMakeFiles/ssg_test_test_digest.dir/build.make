@@ -73,7 +73,7 @@ targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/main.cpp.o:
 targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/main.cpp.o: targets/simple_switch_grpc/tests/main.cpp
 targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/main.cpp.o: targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/main.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/main.cpp.o -MF CMakeFiles/ssg_test_test_digest.dir/main.cpp.o.d -o CMakeFiles/ssg_test_test_digest.dir/main.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests/main.cpp
+	cd /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/main.cpp.o -MF CMakeFiles/ssg_test_test_digest.dir/main.cpp.o.d -o CMakeFiles/ssg_test_test_digest.dir/main.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests/main.cpp
 
 targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ssg_test_test_digest.dir/main.cpp.i"
@@ -87,7 +87,7 @@ targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/base_test.c
 targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/base_test.cpp.o: targets/simple_switch_grpc/tests/base_test.cpp
 targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/base_test.cpp.o: targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/base_test.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/base_test.cpp.o -MF CMakeFiles/ssg_test_test_digest.dir/base_test.cpp.o.d -o CMakeFiles/ssg_test_test_digest.dir/base_test.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests/base_test.cpp
+	cd /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/base_test.cpp.o -MF CMakeFiles/ssg_test_test_digest.dir/base_test.cpp.o.d -o CMakeFiles/ssg_test_test_digest.dir/base_test.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests/base_test.cpp
 
 targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/base_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ssg_test_test_digest.dir/base_test.cpp.i"
@@ -101,7 +101,7 @@ targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/utils.cpp.o
 targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/utils.cpp.o: targets/simple_switch_grpc/tests/utils.cpp
 targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/utils.cpp.o: targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/utils.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/utils.cpp.o -MF CMakeFiles/ssg_test_test_digest.dir/utils.cpp.o.d -o CMakeFiles/ssg_test_test_digest.dir/utils.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests/utils.cpp
+	cd /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/utils.cpp.o -MF CMakeFiles/ssg_test_test_digest.dir/utils.cpp.o.d -o CMakeFiles/ssg_test_test_digest.dir/utils.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests/utils.cpp
 
 targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ssg_test_test_digest.dir/utils.cpp.i"
@@ -115,7 +115,7 @@ targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/test_digest
 targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/test_digest.cpp.o: targets/simple_switch_grpc/tests/test_digest.cpp
 targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/test_digest.cpp.o: targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/p4/src/behavioral-model/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/test_digest.cpp.o"
-	cd /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/test_digest.cpp.o -MF CMakeFiles/ssg_test_test_digest.dir/test_digest.cpp.o.d -o CMakeFiles/ssg_test_test_digest.dir/test_digest.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests/test_digest.cpp
+	cd /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/test_digest.cpp.o -MF CMakeFiles/ssg_test_test_digest.dir/test_digest.cpp.o.d -o CMakeFiles/ssg_test_test_digest.dir/test_digest.cpp.o -c /home/p4/src/behavioral-model/targets/simple_switch_grpc/tests/test_digest.cpp
 
 targets/simple_switch_grpc/tests/CMakeFiles/ssg_test_test_digest.dir/test_digest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ssg_test_test_digest.dir/test_digest.cpp.i"
