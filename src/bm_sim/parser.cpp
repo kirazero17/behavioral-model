@@ -117,11 +117,17 @@ ParserOpSet<ArithExpression>::operator()(Packet *pkt, const char *data,
                                          size_t *bytes_parsed) const {
   (void) bytes_parsed; (void) data;
   auto phv = pkt->get_phv();
-  auto &f_dst = phv->get_field(dst.header, dst.offset);
-  src.eval(*phv, &f_dst);
   BMLOG_DEBUG_PKT(
     *pkt,
-    "Parser set: setting field '{}' from expression, new value is {}",
+    "Parser set: set field '{}' from expression",
+    phv->get_field_name(dst.header, dst.offset));
+
+  auto &f_dst = phv->get_field(dst.header, dst.offset);
+  src.eval(*phv, &f_dst);
+
+  BMLOG_DEBUG_PKT(
+    *pkt,
+    "Parser set: set field '{}' from expression, new value is {}",
     phv->get_field_name(dst.header, dst.offset), f_dst);
 }
 
@@ -1074,9 +1080,15 @@ ParseState::find_next_state(Packet *pkt, const char *data,
 
   // try the matches in order
   const ParseState *next_state = nullptr;
-  for (const auto &switch_case : parser_switch)
+  int unmatched_cases = 0;
+  for (const auto &switch_case : parser_switch){
+    BMLOG_DEBUG_PKT(*pkt, "Parser state '{}': trying switch case {}",
+                    get_name(), unmatched_cases++);
     if (switch_case->match(key, &next_state)) return next_state;
-
+  }
+  
+  BMLOG_DEBUG_PKT(*pkt, "Parser state '{}': no switch case matched, going to default next state",
+                  get_name());
   return default_next_state;
 }
 
