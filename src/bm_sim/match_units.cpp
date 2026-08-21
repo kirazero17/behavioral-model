@@ -194,9 +194,12 @@ MatchKeyBuilder::operator()(const PHV &phv, ByteContainer *key) const {
       // for hidden fields, we want the actual value, even though for $valid$,
       // it does not make a difference
       const Field &field = header[in.f_offset];
-      if (header.is_valid() || field.is_hidden()) {
+      if (header.is_valid() || header.is_metadata() || field.is_hidden()) {
+        
+        BMLOG_DEBUG("Header field {} in PHV is valid.", header.get_field_full_name(in.f_offset));
         key->append(field.get_bytes());
       } else {
+        BMLOG_DEBUG("Header field {} in PHV is not valid. Set to zero.", header.get_field_full_name(in.f_offset));
         key->append(std::string(field.get_nbytes(), '\x00'));
       }
     }
