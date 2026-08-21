@@ -1087,7 +1087,7 @@ ParseState::find_next_state(Packet *pkt, const char *data,
     if (switch_case->match(key, &next_state)) return next_state;
   }
   
-  BMLOG_DEBUG_PKT(*pkt, "Parser state '{}': no switch case matched, going to default next state",
+  BMLOG_DEBUG_PKT(*pkt, "Parser state '{}': no switch case is matched, going to default next state",
                   get_name());
   return default_next_state;
 }
